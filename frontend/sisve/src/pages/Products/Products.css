@@ -1,0 +1,104 @@
+.Products {
+    display: flex;    
+    background-color: #f6f6f6;
+    align-items: left;
+    flex-direction: column;
+
+}
+   
+.Products h1 {
+    margin: 0;
+    color:  rgb(0, 59, 136) ;
+    font-family: Limelight;
+    font-size: 45px;
+    padding: 24px;
+}
+
+.Products table {
+    margin: 10px 0px 54px 30px ;
+    color:  rgb(79, 85, 93) ;
+    font-family: Literata; 
+    font-size: 20px;
+    text-align: center;  
+    width: 95%;
+}
+.cabecalho{
+    display: flex;
+    flex-flow: row wrap;
+}
+ 
+.Search {
+    width: 50%;
+    background-color:   #1f0505;
+}
+      
+.Botao {
+    margin-left: 93%;
+    width: 50%;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.Botao button{
+
+    width: 48%;
+    padding: 2px;
+    font-weight: 800;
+    background: wheat;
+    color:#F5873B;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.4s;
+  }
+
+  .Botao button:hover{
+    filter: brightness(0.9); 
+  }
+
+  .Edicao button{
+  
+    padding: 2px;
+    font-weight: 800;
+    color:#F5873B;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.4s;
+  }
+
+  .Delecao button{
+  
+    padding: 2px;
+    font-weight: 800;
+    color:#F5873B;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.4s;
+  }
+
+  .Search input{
+
+    width: 30%;
+    background: rgba(255, 255, 255, 0.644);
+    font-size: 15px;
+    border-radius: 20px;
+  }
+
+  .Search button{
+
+    background: rgba(0, 59, 136, 0.105) ;   
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    width: 48%;
+  }
+
+
+

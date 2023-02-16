@@ -1,0 +1,116 @@
+.linha{
+  display: flex;
+  flex-flow: row wrap;
+  }
+
+.coluna-50 {
+  width: 50%;
+  background-color: #F5873B;
+  height: 100%;
+}
+
+.coluna-100 {
+  width: 50%;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #FFFFFF;
+}
+
+.coluna-50 h1 {
+  margin: 50px 80px 1px 20px;
+  font-size: 70px;
+  color: #FFFFFF ;
+  font-family: Limelight;
+}
+
+.coluna-50 h2 {
+  margin: 10px 80px 1px 20px;
+  font-size: 20px;
+  color: #FFFFFF ;
+  font-family: Limelight;
+}
+
+.coluna-50 p {
+  margin: 50px 80px 50px 20px;
+  font-size: 20px;
+  color: #FFFFFF ;
+  font-family: Literata;
+}
+
+.coluna-50 h3 {
+  margin: 54px 80px 10px 20px;
+  font-size: 20px;
+  color: #FFFFFF ;
+  font-family: Limelight;
+}
+
+.coluna-50 button{
+  width: 60%;
+  padding: 15px;
+  font-weight: 800;
+
+  background: #FFFFFF ;
+  color:#F5873B;
+
+  border-radius: 25px;
+  margin: 20px 0px 10px 94px;
+  border: none;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+
+  font-size: 20px;
+}
+
+.coluna-50 button:hover{
+  filter: brightness(0.9);
+}
+
+.coluna-100 h2 {
+  margin: 50px 80px 10px 10px;
+  font-size: 30px;
+  color: #004AADFF ;
+  font-family: Limelight;
+}
+
+.coluna-100 h3 {
+  margin: 30px 80px 30px 20px;
+  font-size: 20px;
+  color: #004AADFF ;
+  font-family: Literata;
+}
+
+.coluna-100 label {
+  margin: 20px 80px 1px 30px;
+  font-family: Limelight;
+  color: #004AADFF ;
+}
+
+.coluna-100 input{
+  margin: 20px 80px 1px 30px;
+  width: 70%;
+  padding: 24px;
+  background: rgba(84, 95, 109, 0.329);
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+} 
+
+.coluna-100 button{
+  width: 60%;
+  padding: 15px;
+  font-weight: 800;
+  background: #004AADFF ;
+  color:#FFFFFF;
+  border-radius: 25px;
+  margin: 25px 0px 10px 94px;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.2s;
+  font-size: 20px;
+}
+
+.coluna-100 button:hover{
+  filter: brightness(0.9);
+}
+

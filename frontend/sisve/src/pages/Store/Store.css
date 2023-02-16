@@ -1,0 +1,31 @@
+.Store {
+    display: flex;    
+    background-color: #ffffff;
+    align-items: left;
+    flex-direction: column;
+
+}   
+.Store h1 {
+   
+  margin: 12px 0 0px 0px ;
+  margin-bottom: 0px;
+  color:  rgb(0, 59, 136) ;
+  font-family: Limelight;
+  font-size: 45px;
+  padding: 24px;
+}
+
+.Store h2 {
+    margin: 24px 0 24px 54px ;
+    color:  rgb(0, 59, 136) ;
+    font-family: Limelight;
+    font-size: 25px;
+}
+
+.Store p {
+    margin: 0 0 12px 84px ;
+    color:  rgb(79, 85, 93) ;
+    font-family: Literata;
+    font-size: 20px;
+}
+
